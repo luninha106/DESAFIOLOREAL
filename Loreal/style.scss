@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+   justify-content: space-between;
+   padding: 10px 30px;
+    align-items: center;
+    // forma de mudar o estilo para uma determinada tela
+    @media (max-width: 800px)  
+{flex-direction: column;
+
+}
+}
+ul {
+    display: flex;
+    width: 70vw;
+    list-style: none;
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
+    text-align: center;
+    justify-content: space-around;
+}
+
+body{
+background-color: #EFEEF3;
+}
