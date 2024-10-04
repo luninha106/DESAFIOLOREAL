@@ -22,27 +22,38 @@ ul {
     list-style: none;
     @media (max-width: 800px) {
         flex-direction: column;
-    }
     text-align: center;
     justify-content: space-around;
+    }
 }
 
 body{
 background-color: #EFEEF3;
 }
-
+main{
 .banner{
     width: 100vw;
-    @media (max-width:800px)
-    {display: none;}
+    @media (max-width:800px){
+        display: none;
+    }
 }
-
-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+     section{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 30px;
+        @media (max-width:800px){
+            flex-direction: column;
+        }
 
 }
-.caixa1{
-    width: 30vw;
+        .caixa1{
+        width: 30vw;
+        line-height: 25px;
+        text-align: center;
+        @media (max-width:800px){
+            width: 55vw;
+            text-align: center;
+        }
+} 
 }
